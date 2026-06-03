@@ -52,6 +52,8 @@ x = "log10(Haploblock size bp)",
 y = "Count")
 
 ggsave("figures/01_size_distribution.pdf", p1, width = 8, height = 5)
+ggsave("figures/01_size_distribution.png", p1, width = 8, height = 5, dpi = 300)
+
 
 # =========================
 
@@ -68,6 +70,8 @@ x = "Chromosome",
 y = "log10(Size bp)")
 
 ggsave("figures/02_chr_boxplot.pdf", p2, width = 10, height = 5)
+ggsave("figures/02_chr_boxplot.png", p2, width = 10, height = 5, dpi = 300)
+
 
 # =========================
 
@@ -84,6 +88,7 @@ x = "Haploblock size (bp, log scale)",
 y = "Proportion")
 
 ggsave("figures/03_ecdf.pdf", p3, width = 8, height = 5)
+ggsave("figures/03_ecdf.png", p3, width = 8, height = 5, dpi = 300)
 
 # =========================
 
@@ -105,6 +110,8 @@ x = "Chromosome",
 y = "Block count")
 
 ggsave("figures/04_blocks_per_chr.pdf", p4, width = 10, height = 5)
+ggsave("figures/04_blocks_per_chr.png", p4, width = 10, height = 5, dpi = 300)
+
 
 # =========================
 
@@ -126,6 +133,8 @@ x = "Chromosome",
 y = "Mean size (bp, log scale)")
 
 ggsave("figures/05_mean_size_chr.pdf", p5, width = 10, height = 5)
+ggsave("figures/05_mean_size_chr.png", p5, width = 10, height = 5, dpi = 300)
+
 
 # =========================
 
@@ -143,6 +152,8 @@ x = "Position",
 y = "Size (bp, log scale)")
 
 ggsave("figures/06_size_vs_position.pdf", p6, width = 12, height = 8)
+ggsave("figures/06_size_vs_position.png", p6, width = 12, height = 8, dpi = 300)
+
 
 # =========================
 
@@ -163,6 +174,7 @@ x = "Chromosome",
 y = "Blocks per Mb")
 
 ggsave("figures/07_density.pdf", p7, width = 10, height = 5)
+ggsave("figures/07_density.png", p7, width = 10, height = 5, dpi = 300)
 
 # =========================
 
