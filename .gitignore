@@ -1,2 +1,4 @@
 clusters_summary.tsv
-clusters_summary.tsv
+block_stats.tsv
+haploblock_qc_summary.tsv
+*.pdf
